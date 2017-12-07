@@ -1,0 +1,17 @@
+#
+# /etc/shells
+#
+
+/bin/sh
+/bin/bash
+
+# End of file
+/usr/bin/git-shell
+/bin/zsh
+/usr/bin/zsh
+/bin/tcsh
+/bin/csh
+/bin/dash
+/usr/bin/fish
+/bin/mksh
+/usr/bin/pwsh
