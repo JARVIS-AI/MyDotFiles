@@ -18,24 +18,24 @@ Thanks
 |                   Name                   |           Description           |
 | :--------------------------------------: | :-----------------------------: |
 |          .xinitrc, .Xresources           |           Misc Linux            |
-| [[https://github.com/syl20bnr/spacemacs][.spacemacs]] |    Emacs configuration file     |
-| [[https://wiki.archlinux.org/index.php/Termite][termite]] |   Vim based terminal emulator   |
-| [[https://wiki.archlinux.org/index.php/SLiM][slim]] |      Simple login manager       |
-| [[https://wiki.archlinux.org/index.php/Font_configuration][fontconfig]] |     Font configuration file     |
+| [https://github.com/syl20bnr/spacemacs][.spacemacs] |    Emacs configuration file     |
+| [https://wiki.archlinux.org/index.php/Termite][termite] |   Vim based terminal emulator   |
+| [https://wiki.archlinux.org/index.php/SLiM][slim] |      Simple login manager       |
+| [https://wiki.archlinux.org/index.php/Font_configuration][fontconfig] |     Font configuration file     |
 |                .gitconfig                |       Git configurations        |
 |             Nvidia-rsetting              |  Nvidia Control Panel Setting   |
 |                Bumblebee                 |           Optimus VGA           |
-|  [[https://github.com/cmus/cmus][cava]]  |        Audio Visualizer         |
+|  [https://github.com/cmus/cmus][cava]  |        Audio Visualizer         |
 |                 LightDM                  |       Light login manager       |
 |                   GDM                    |       Gnome login manager       |
 |                   ZSH                    |       Shell Configuration       |
-| [[http://www.knopwob.org/dunst/][dunst]] |      System notifications       |
+| [http://www.knopwob.org/dunst/][dunst] |      System notifications       |
 |          .jsbeautifyrc, .eslint          | Javascript linting and beautify |
 |                 Profile                  |        Misc Arch profile        |
-| [[https://wiki.archlinux.org/index.php/Zathura][zathura]] |         Document Viewer         |
+| [https://wiki.archlinux.org/index.php/Zathura][zathura] |         Document Viewer         |
 |                 Zprezto                  |          ZSH Framework          |
-|  [[https://github.com/cmus/cmus][cmus]]  |          Audio Player           |
-| [[https://github.com/rakshasa/rtorrent][rtorrent]] |  Command line torrent tracker   |
+|  [https://github.com/cmus/cmus][cmus]  |          Audio Player           |
+| [https://github.com/rakshasa/rtorrent][rtorrent] |  Command line torrent tracker   |
 
 </div>
 
@@ -45,7 +45,7 @@ So as you know all of my project even the simple one has got license and most of
 
 So this is it. Its same as usual. This Project or if I name it config directory is under Creative commons 4.
 
-Thank you. 
+Thank you.
 
 Go for them and use them for your OS.
 
