@@ -18,24 +18,24 @@ Thanks
 |                   Name                   |           Description           |
 | :--------------------------------------: | :-----------------------------: |
 |          .xinitrc, .Xresources           |           Misc Linux            |
-| [https://github.com/syl20bnr/spacemacs](.spacemacs) |    Emacs configuration file     |
-| [https://wiki.archlinux.org/index.php/Termite](termite) |   Vim based terminal emulator   |
-| [https://wiki.archlinux.org/index.php/SLiM](slim) |      Simple login manager       |
-| [https://wiki.archlinux.org/index.php/Font_configuration](fontconfig) |     Font configuration file     |
+| [.spacemacs](https://github.com/syl20bnr/spacemacs) |    Emacs configuration file     |
+| [termite](https://wiki.archlinux.org/index.php/Termite) |   Vim based terminal emulator   |
+| [slim](https://wiki.archlinux.org/index.php/SLiM) |      Simple login manager       |
+| [fontconfig](https://wiki.archlinux.org/index.php/Font_configuration) |     Font configuration file     |
 |                .gitconfig                |       Git configurations        |
 |             Nvidia-rsetting              |  Nvidia Control Panel Setting   |
 |                Bumblebee                 |           Optimus VGA           |
-|   [https://github.com/cmus/cmus](cava)   |        Audio Visualizer         |
+|   [cava](https://github.com/cmus/cmus)   |        Audio Visualizer         |
 |                 LightDM                  |       Light login manager       |
 |                   GDM                    |       Gnome login manager       |
 |                   ZSH                    |       Shell Configuration       |
-|  [http://www.knopwob.org/dunst/](dunst)  |      System notifications       |
+|  [dunst](http://www.knopwob.org/dunst/)  |      System notifications       |
 |          .jsbeautifyrc, .eslint          | Javascript linting and beautify |
 |                 Profile                  |        Misc Arch profile        |
-| [https://wiki.archlinux.org/index.php/Zathura](zathura) |         Document Viewer         |
+| [zathura](https://wiki.archlinux.org/index.php/Zathura) |         Document Viewer         |
 |                 Zprezto                  |          ZSH Framework          |
-|   [https://github.com/cmus/cmus](cmus)   |          Audio Player           |
-| [https://github.com/rakshasa/rtorrent](rtorrent) |  Command line torrent tracker   |
+|   [cmus](https://github.com/cmus/cmus)   |          Audio Player           |
+| [rtorrent](https://github.com/rakshasa/rtorrent) |  Command line torrent tracker   |
 
 </div>
 
