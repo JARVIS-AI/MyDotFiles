@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Open nautilus as root in your home directory
+##########################################################################
+#                 Nautilus "OpenAsRoot" Script                #
+##########################################################################
+#                                                                        #
+# Created by GnomaS&TrolaS                                                   #
+# Emails: kmgkara@abv.bg                                 #
+#                                                                        #
+##########################################################################
+#----language setting-------------------------------------#
+
+gksu nautilus $NAUTILUS_SCRIPT_CURRENT_URI

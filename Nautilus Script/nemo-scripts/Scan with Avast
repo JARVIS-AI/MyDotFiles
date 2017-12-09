@@ -1,0 +1,42 @@
+#!/bin/bash
+# Author: GNot
+# URL- http://www.g-loaded.eu/2005/11/10/search-for-viruses-from-nautilus/
+# Version: 0.4
+# License: GPL
+# Requires: Zenity, Clamav
+#
+# Usage: Put it in ~/.gnome2/nautilus-scripts, set the 
+# executable attribute and use from within Nautilus:
+# right click -> Scripts
+#
+# Nautilus script that uses Clamav to scan for viruses.
+# It shows a progress bar while scanning. At this point
+# the progress bar actually shows progress only when 
+# scanning multiple files.
+
+
+STATUS="/tmp/$$_avast_scan.tmp"
+STEP=$((100/$#))
+PERC=0
+(
+for arg
+do
+	echo "# Scanning\: $arg"; sleep 1
+	avast -p3 -n "$arg" >> $STATUS
+	let PERC=$PERC+$STEP
+	echo $PERC; sleep 0.1
+done
+echo 100
+) |
+zenity --progress --title='Scanning files...' --text="" --auto-close --percentage=0
+
+if [ -z $(cat $STATUS) ]; then
+	OUTPUT="No virus found!"
+else
+	OUTPUT="$(cat $STATUS)"
+fi
+
+zenity --info --title='Virus Scan complete' --text="$OUTPUT"
+rm -f $STATUS
+
+exit 0
